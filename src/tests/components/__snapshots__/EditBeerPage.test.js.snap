@@ -1,0 +1,192 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render EditBeerPage 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EditBeerPage
+    beer={
+      Object {
+        "ABV": 4.8,
+        "IBU": 3,
+        "beername": "Nyenye",
+        "beertype": "Hefeweizen",
+        "brewery": "Cseceeeelkfjs",
+        "createdAt": 345600000,
+        "description": "TEtete",
+        "id": "3",
+        "origin": "Czech Republic",
+        "price": 195,
+        "rating": 3.56,
+      }
+    }
+    editBeer={[MockFunction]}
+    history={
+      Object {
+        "push": [MockFunction],
+      }
+    }
+    removeBeer={[MockFunction]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <BeerForm
+          beer={
+            Object {
+              "ABV": 4.8,
+              "IBU": 3,
+              "beername": "Nyenye",
+              "beertype": "Hefeweizen",
+              "brewery": "Cseceeeelkfjs",
+              "createdAt": 345600000,
+              "description": "TEtete",
+              "id": "3",
+              "origin": "Czech Republic",
+              "price": 195,
+              "rating": 3.56,
+            }
+          }
+          onSubmit={[Function]}
+        />,
+        <button
+          onClick={[Function]}
+        >
+          Remove
+        </button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "beer": Object {
+            "ABV": 4.8,
+            "IBU": 3,
+            "beername": "Nyenye",
+            "beertype": "Hefeweizen",
+            "brewery": "Cseceeeelkfjs",
+            "createdAt": 345600000,
+            "description": "TEtete",
+            "id": "3",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Remove",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": "Remove",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <BeerForm
+            beer={
+              Object {
+                "ABV": 4.8,
+                "IBU": 3,
+                "beername": "Nyenye",
+                "beertype": "Hefeweizen",
+                "brewery": "Cseceeeelkfjs",
+                "createdAt": 345600000,
+                "description": "TEtete",
+                "id": "3",
+                "origin": "Czech Republic",
+                "price": 195,
+                "rating": 3.56,
+              }
+            }
+            onSubmit={[Function]}
+          />,
+          <button
+            onClick={[Function]}
+          >
+            Remove
+          </button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "beer": Object {
+              "ABV": 4.8,
+              "IBU": 3,
+              "beername": "Nyenye",
+              "beertype": "Hefeweizen",
+              "brewery": "Cseceeeelkfjs",
+              "createdAt": 345600000,
+              "description": "TEtete",
+              "id": "3",
+              "origin": "Czech Republic",
+              "price": 195,
+              "rating": 3.56,
+            },
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Remove",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": "Remove",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

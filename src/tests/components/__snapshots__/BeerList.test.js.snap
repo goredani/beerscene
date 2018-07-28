@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BeerList with beers 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BeerList
+    beers={
+      Array [
+        Object {
+          "ABV": 4.8,
+          "IBU": 1,
+          "beername": "Babbaba",
+          "beertype": "Hefeweizen",
+          "brewery": "Primátor",
+          "createdAt": 0,
+          "description": "Bababab",
+          "id": "1",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        Object {
+          "ABV": 4.8,
+          "IBU": 2,
+          "beername": "Rererere",
+          "beertype": "Hefeweizen",
+          "brewery": "Csecs",
+          "createdAt": -345600000,
+          "description": "Fefefe",
+          "id": "2",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        Object {
+          "ABV": 4.8,
+          "IBU": 3,
+          "beername": "Nyenye",
+          "beertype": "Hefeweizen",
+          "brewery": "Cseceeeelkfjs",
+          "createdAt": 345600000,
+          "description": "TEtete",
+          "id": "3",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+           Beer List 
+        </h1>,
+        Array [
+          <BeerListItem
+            ABV={4.8}
+            IBU={1}
+            beername="Babbaba"
+            beertype="Hefeweizen"
+            brewery="Primátor"
+            createdAt={0}
+            description="Bababab"
+            id="1"
+            origin="Czech Republic"
+            price={195}
+            rating={3.56}
+          />,
+          <BeerListItem
+            ABV={4.8}
+            IBU={2}
+            beername="Rererere"
+            beertype="Hefeweizen"
+            brewery="Csecs"
+            createdAt={-345600000}
+            description="Fefefe"
+            id="2"
+            origin="Czech Republic"
+            price={195}
+            rating={3.56}
+          />,
+          <BeerListItem
+            ABV={4.8}
+            IBU={3}
+            beername="Nyenye"
+            beertype="Hefeweizen"
+            brewery="Cseceeeelkfjs"
+            createdAt={345600000}
+            description="TEtete"
+            id="3"
+            origin="Czech Republic"
+            price={195}
+            rating={3.56}
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " Beer List ",
+        },
+        "ref": null,
+        "rendered": " Beer List ",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "ABV": 4.8,
+          "IBU": 1,
+          "beername": "Babbaba",
+          "beertype": "Hefeweizen",
+          "brewery": "Primátor",
+          "createdAt": 0,
+          "description": "Bababab",
+          "id": "1",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "ABV": 4.8,
+          "IBU": 2,
+          "beername": "Rererere",
+          "beertype": "Hefeweizen",
+          "brewery": "Csecs",
+          "createdAt": -345600000,
+          "description": "Fefefe",
+          "id": "2",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "ABV": 4.8,
+          "IBU": 3,
+          "beername": "Nyenye",
+          "beertype": "Hefeweizen",
+          "brewery": "Cseceeeelkfjs",
+          "createdAt": 345600000,
+          "description": "TEtete",
+          "id": "3",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+             Beer List 
+          </h1>,
+          Array [
+            <BeerListItem
+              ABV={4.8}
+              IBU={1}
+              beername="Babbaba"
+              beertype="Hefeweizen"
+              brewery="Primátor"
+              createdAt={0}
+              description="Bababab"
+              id="1"
+              origin="Czech Republic"
+              price={195}
+              rating={3.56}
+            />,
+            <BeerListItem
+              ABV={4.8}
+              IBU={2}
+              beername="Rererere"
+              beertype="Hefeweizen"
+              brewery="Csecs"
+              createdAt={-345600000}
+              description="Fefefe"
+              id="2"
+              origin="Czech Republic"
+              price={195}
+              rating={3.56}
+            />,
+            <BeerListItem
+              ABV={4.8}
+              IBU={3}
+              beername="Nyenye"
+              beertype="Hefeweizen"
+              brewery="Cseceeeelkfjs"
+              createdAt={345600000}
+              description="TEtete"
+              id="3"
+              origin="Czech Republic"
+              price={195}
+              rating={3.56}
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " Beer List ",
+          },
+          "ref": null,
+          "rendered": " Beer List ",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "ABV": 4.8,
+            "IBU": 1,
+            "beername": "Babbaba",
+            "beertype": "Hefeweizen",
+            "brewery": "Primátor",
+            "createdAt": 0,
+            "description": "Bababab",
+            "id": "1",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "ABV": 4.8,
+            "IBU": 2,
+            "beername": "Rererere",
+            "beertype": "Hefeweizen",
+            "brewery": "Csecs",
+            "createdAt": -345600000,
+            "description": "Fefefe",
+            "id": "2",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "ABV": 4.8,
+            "IBU": 3,
+            "beername": "Nyenye",
+            "beertype": "Hefeweizen",
+            "brewery": "Cseceeeelkfjs",
+            "createdAt": 345600000,
+            "description": "TEtete",
+            "id": "3",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should render BeerList with empty message 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BeerList
+    beers={
+      Array [
+        Object {
+          "ABV": 4.8,
+          "IBU": 1,
+          "beername": "Babbaba",
+          "beertype": "Hefeweizen",
+          "brewery": "Primátor",
+          "createdAt": 0,
+          "description": "Bababab",
+          "id": "1",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        Object {
+          "ABV": 4.8,
+          "IBU": 2,
+          "beername": "Rererere",
+          "beertype": "Hefeweizen",
+          "brewery": "Csecs",
+          "createdAt": -345600000,
+          "description": "Fefefe",
+          "id": "2",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        Object {
+          "ABV": 4.8,
+          "IBU": 3,
+          "beername": "Nyenye",
+          "beertype": "Hefeweizen",
+          "brewery": "Cseceeeelkfjs",
+          "createdAt": 345600000,
+          "description": "TEtete",
+          "id": "3",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+           Beer List 
+        </h1>,
+        Array [
+          <BeerListItem
+            ABV={4.8}
+            IBU={1}
+            beername="Babbaba"
+            beertype="Hefeweizen"
+            brewery="Primátor"
+            createdAt={0}
+            description="Bababab"
+            id="1"
+            origin="Czech Republic"
+            price={195}
+            rating={3.56}
+          />,
+          <BeerListItem
+            ABV={4.8}
+            IBU={2}
+            beername="Rererere"
+            beertype="Hefeweizen"
+            brewery="Csecs"
+            createdAt={-345600000}
+            description="Fefefe"
+            id="2"
+            origin="Czech Republic"
+            price={195}
+            rating={3.56}
+          />,
+          <BeerListItem
+            ABV={4.8}
+            IBU={3}
+            beername="Nyenye"
+            beertype="Hefeweizen"
+            brewery="Cseceeeelkfjs"
+            createdAt={345600000}
+            description="TEtete"
+            id="3"
+            origin="Czech Republic"
+            price={195}
+            rating={3.56}
+          />,
+        ],
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": " Beer List ",
+        },
+        "ref": null,
+        "rendered": " Beer List ",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "function",
+        "props": Object {
+          "ABV": 4.8,
+          "IBU": 1,
+          "beername": "Babbaba",
+          "beertype": "Hefeweizen",
+          "brewery": "Primátor",
+          "createdAt": 0,
+          "description": "Bababab",
+          "id": "1",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "function",
+        "props": Object {
+          "ABV": 4.8,
+          "IBU": 2,
+          "beername": "Rererere",
+          "beertype": "Hefeweizen",
+          "brewery": "Csecs",
+          "createdAt": -345600000,
+          "description": "Fefefe",
+          "id": "2",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "function",
+        "props": Object {
+          "ABV": 4.8,
+          "IBU": 3,
+          "beername": "Nyenye",
+          "beertype": "Hefeweizen",
+          "brewery": "Cseceeeelkfjs",
+          "createdAt": 345600000,
+          "description": "TEtete",
+          "id": "3",
+          "origin": "Czech Republic",
+          "price": 195,
+          "rating": 3.56,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+             Beer List 
+          </h1>,
+          Array [
+            <BeerListItem
+              ABV={4.8}
+              IBU={1}
+              beername="Babbaba"
+              beertype="Hefeweizen"
+              brewery="Primátor"
+              createdAt={0}
+              description="Bababab"
+              id="1"
+              origin="Czech Republic"
+              price={195}
+              rating={3.56}
+            />,
+            <BeerListItem
+              ABV={4.8}
+              IBU={2}
+              beername="Rererere"
+              beertype="Hefeweizen"
+              brewery="Csecs"
+              createdAt={-345600000}
+              description="Fefefe"
+              id="2"
+              origin="Czech Republic"
+              price={195}
+              rating={3.56}
+            />,
+            <BeerListItem
+              ABV={4.8}
+              IBU={3}
+              beername="Nyenye"
+              beertype="Hefeweizen"
+              brewery="Cseceeeelkfjs"
+              createdAt={345600000}
+              description="TEtete"
+              id="3"
+              origin="Czech Republic"
+              price={195}
+              rating={3.56}
+            />,
+          ],
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": " Beer List ",
+          },
+          "ref": null,
+          "rendered": " Beer List ",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "function",
+          "props": Object {
+            "ABV": 4.8,
+            "IBU": 1,
+            "beername": "Babbaba",
+            "beertype": "Hefeweizen",
+            "brewery": "Primátor",
+            "createdAt": 0,
+            "description": "Bababab",
+            "id": "1",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "function",
+          "props": Object {
+            "ABV": 4.8,
+            "IBU": 2,
+            "beername": "Rererere",
+            "beertype": "Hefeweizen",
+            "brewery": "Csecs",
+            "createdAt": -345600000,
+            "description": "Fefefe",
+            "id": "2",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "function",
+          "props": Object {
+            "ABV": 4.8,
+            "IBU": 3,
+            "beername": "Nyenye",
+            "beertype": "Hefeweizen",
+            "brewery": "Cseceeeelkfjs",
+            "createdAt": 345600000,
+            "description": "TEtete",
+            "id": "3",
+            "origin": "Czech Republic",
+            "price": 195,
+            "rating": 3.56,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

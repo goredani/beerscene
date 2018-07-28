@@ -1,0 +1,2531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BeerForm correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BeerForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "",
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            autoFocus={true}
+            onChange={[Function]}
+            placeholder="Beer Name"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Beer Type"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Brewery"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="ABV"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="IBU"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Country Origin"
+            type="text"
+            value=""
+          />
+          <br />
+          <textarea
+            onChange={[Function]}
+            placeholder="Description"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Price"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Rating"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            placeholder="1970, Thu, 1AM"
+            type="text"
+          />
+          <button>
+            Add Beer
+          </button>
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              autoFocus={true}
+              onChange={[Function]}
+              placeholder="Beer Name"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Beer Type"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Brewery"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="ABV"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="IBU"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Country Origin"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <textarea
+              onChange={[Function]}
+              placeholder="Description"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Price"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              placeholder="1970, Thu, 1AM"
+              type="text"
+            />,
+            <button>
+              Add Beer
+            </button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "autoFocus": true,
+              "onChange": [Function],
+              "placeholder": "Beer Name",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Beer Type",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Brewery",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "ABV",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "IBU",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Country Origin",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Description",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Price",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Rating",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "1970, Thu, 1AM",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add Beer",
+            },
+            "ref": null,
+            "rendered": "Add Beer",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              autoFocus={true}
+              onChange={[Function]}
+              placeholder="Beer Name"
+              type="text"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Beer Type"
+              type="text"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Brewery"
+              type="text"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="ABV"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="IBU"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Country Origin"
+              type="text"
+              value=""
+            />
+            <br />
+            <textarea
+              onChange={[Function]}
+              placeholder="Description"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Price"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              placeholder="1970, Thu, 1AM"
+              type="text"
+            />
+            <button>
+              Add Beer
+            </button>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                autoFocus={true}
+                onChange={[Function]}
+                placeholder="Beer Name"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Beer Type"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Brewery"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="ABV"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="IBU"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Country Origin"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <textarea
+                onChange={[Function]}
+                placeholder="Description"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Price"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Rating"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                placeholder="1970, Thu, 1AM"
+                type="text"
+              />,
+              <button>
+                Add Beer
+              </button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "onChange": [Function],
+                "placeholder": "Beer Name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Beer Type",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Brewery",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "ABV",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "IBU",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Country Origin",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Description",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Price",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Rating",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "1970, Thu, 1AM",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Beer",
+              },
+              "ref": null,
+              "rendered": "Add Beer",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should render BeerForm correctly with beer data 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BeerForm
+    beer={
+      Object {
+        "ABV": 4.8,
+        "IBU": 1,
+        "beername": "Babbaba",
+        "beertype": "Hefeweizen",
+        "brewery": "Primátor",
+        "createdAt": 0,
+        "description": "Bababab",
+        "id": "1",
+        "origin": "Czech Republic",
+        "price": 195,
+        "rating": 3.56,
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        "",
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            autoFocus={true}
+            onChange={[Function]}
+            placeholder="Beer Name"
+            type="text"
+            value="Babbaba"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Beer Type"
+            type="text"
+            value="Hefeweizen"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Brewery"
+            type="text"
+            value="Primátor"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="ABV"
+            type="number"
+            value="0.048"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="IBU"
+            type="number"
+            value="0.01"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Country Origin"
+            type="text"
+            value="Czech Republic"
+          />
+          <br />
+          <textarea
+            onChange={[Function]}
+            placeholder="Description"
+            value="Bababab"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Price"
+            type="number"
+            value="1.95"
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Rating"
+            type="number"
+            value="0.0356"
+          />
+          <br />
+          <input
+            placeholder="1970, Thu, 1AM"
+            type="text"
+          />
+          <button>
+            Add Beer
+          </button>
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      "",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              autoFocus={true}
+              onChange={[Function]}
+              placeholder="Beer Name"
+              type="text"
+              value="Babbaba"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Beer Type"
+              type="text"
+              value="Hefeweizen"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Brewery"
+              type="text"
+              value="Primátor"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="ABV"
+              type="number"
+              value="0.048"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="IBU"
+              type="number"
+              value="0.01"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Country Origin"
+              type="text"
+              value="Czech Republic"
+            />,
+            <br />,
+            <textarea
+              onChange={[Function]}
+              placeholder="Description"
+              value="Bababab"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Price"
+              type="number"
+              value="1.95"
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value="0.0356"
+            />,
+            <br />,
+            <input
+              placeholder="1970, Thu, 1AM"
+              type="text"
+            />,
+            <button>
+              Add Beer
+            </button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "autoFocus": true,
+              "onChange": [Function],
+              "placeholder": "Beer Name",
+              "type": "text",
+              "value": "Babbaba",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Beer Type",
+              "type": "text",
+              "value": "Hefeweizen",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Brewery",
+              "type": "text",
+              "value": "Primátor",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "ABV",
+              "type": "number",
+              "value": "0.048",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "IBU",
+              "type": "number",
+              "value": "0.01",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Country Origin",
+              "type": "text",
+              "value": "Czech Republic",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Description",
+              "value": "Bababab",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Price",
+              "type": "number",
+              "value": "1.95",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Rating",
+              "type": "number",
+              "value": "0.0356",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "1970, Thu, 1AM",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add Beer",
+            },
+            "ref": null,
+            "rendered": "Add Beer",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              autoFocus={true}
+              onChange={[Function]}
+              placeholder="Beer Name"
+              type="text"
+              value="Babbaba"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Beer Type"
+              type="text"
+              value="Hefeweizen"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Brewery"
+              type="text"
+              value="Primátor"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="ABV"
+              type="number"
+              value="0.048"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="IBU"
+              type="number"
+              value="0.01"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Country Origin"
+              type="text"
+              value="Czech Republic"
+            />
+            <br />
+            <textarea
+              onChange={[Function]}
+              placeholder="Description"
+              value="Bababab"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Price"
+              type="number"
+              value="1.95"
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value="0.0356"
+            />
+            <br />
+            <input
+              placeholder="1970, Thu, 1AM"
+              type="text"
+            />
+            <button>
+              Add Beer
+            </button>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                autoFocus={true}
+                onChange={[Function]}
+                placeholder="Beer Name"
+                type="text"
+                value="Babbaba"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Beer Type"
+                type="text"
+                value="Hefeweizen"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Brewery"
+                type="text"
+                value="Primátor"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="ABV"
+                type="number"
+                value="0.048"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="IBU"
+                type="number"
+                value="0.01"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Country Origin"
+                type="text"
+                value="Czech Republic"
+              />,
+              <br />,
+              <textarea
+                onChange={[Function]}
+                placeholder="Description"
+                value="Bababab"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Price"
+                type="number"
+                value="1.95"
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Rating"
+                type="number"
+                value="0.0356"
+              />,
+              <br />,
+              <input
+                placeholder="1970, Thu, 1AM"
+                type="text"
+              />,
+              <button>
+                Add Beer
+              </button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "onChange": [Function],
+                "placeholder": "Beer Name",
+                "type": "text",
+                "value": "Babbaba",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Beer Type",
+                "type": "text",
+                "value": "Hefeweizen",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Brewery",
+                "type": "text",
+                "value": "Primátor",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "ABV",
+                "type": "number",
+                "value": "0.048",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "IBU",
+                "type": "number",
+                "value": "0.01",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Country Origin",
+                "type": "text",
+                "value": "Czech Republic",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Description",
+                "value": "Bababab",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Price",
+                "type": "number",
+                "value": "1.95",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Rating",
+                "type": "number",
+                "value": "0.0356",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "1970, Thu, 1AM",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Beer",
+              },
+              "ref": null,
+              "rendered": "Add Beer",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`should render error for invalid form submission 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <BeerForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <p>
+          Please provide the name of the beer
+        </p>,
+        <form
+          onSubmit={[Function]}
+        >
+          <input
+            autoFocus={true}
+            onChange={[Function]}
+            placeholder="Beer Name"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Beer Type"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Brewery"
+            type="text"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="ABV"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="IBU"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Country Origin"
+            type="text"
+            value=""
+          />
+          <br />
+          <textarea
+            onChange={[Function]}
+            placeholder="Description"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Price"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            onChange={[Function]}
+            placeholder="Rating"
+            type="number"
+            value=""
+          />
+          <br />
+          <input
+            placeholder="1970, Thu, 1AM"
+            type="text"
+          />
+          <button>
+            Add Beer
+          </button>
+        </form>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Please provide the name of the beer",
+        },
+        "ref": null,
+        "rendered": "Please provide the name of the beer",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              autoFocus={true}
+              onChange={[Function]}
+              placeholder="Beer Name"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Beer Type"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Brewery"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="ABV"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="IBU"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Country Origin"
+              type="text"
+              value=""
+            />,
+            <br />,
+            <textarea
+              onChange={[Function]}
+              placeholder="Description"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Price"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value=""
+            />,
+            <br />,
+            <input
+              placeholder="1970, Thu, 1AM"
+              type="text"
+            />,
+            <button>
+              Add Beer
+            </button>,
+          ],
+          "onSubmit": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "autoFocus": true,
+              "onChange": [Function],
+              "placeholder": "Beer Name",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Beer Type",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Brewery",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "ABV",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "IBU",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Country Origin",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Description",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Price",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "onChange": [Function],
+              "placeholder": "Rating",
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "placeholder": "1970, Thu, 1AM",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Add Beer",
+            },
+            "ref": null,
+            "rendered": "Add Beer",
+            "type": "button",
+          },
+        ],
+        "type": "form",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <p>
+            Please provide the name of the beer
+          </p>,
+          <form
+            onSubmit={[Function]}
+          >
+            <input
+              autoFocus={true}
+              onChange={[Function]}
+              placeholder="Beer Name"
+              type="text"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Beer Type"
+              type="text"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Brewery"
+              type="text"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="ABV"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="IBU"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Country Origin"
+              type="text"
+              value=""
+            />
+            <br />
+            <textarea
+              onChange={[Function]}
+              placeholder="Description"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Price"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              onChange={[Function]}
+              placeholder="Rating"
+              type="number"
+              value=""
+            />
+            <br />
+            <input
+              placeholder="1970, Thu, 1AM"
+              type="text"
+            />
+            <button>
+              Add Beer
+            </button>
+          </form>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Please provide the name of the beer",
+          },
+          "ref": null,
+          "rendered": "Please provide the name of the beer",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                autoFocus={true}
+                onChange={[Function]}
+                placeholder="Beer Name"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Beer Type"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Brewery"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="ABV"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="IBU"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Country Origin"
+                type="text"
+                value=""
+              />,
+              <br />,
+              <textarea
+                onChange={[Function]}
+                placeholder="Description"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Price"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                onChange={[Function]}
+                placeholder="Rating"
+                type="number"
+                value=""
+              />,
+              <br />,
+              <input
+                placeholder="1970, Thu, 1AM"
+                type="text"
+              />,
+              <button>
+                Add Beer
+              </button>,
+            ],
+            "onSubmit": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "autoFocus": true,
+                "onChange": [Function],
+                "placeholder": "Beer Name",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Beer Type",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Brewery",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "ABV",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "IBU",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Country Origin",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Description",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Price",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "onChange": [Function],
+                "placeholder": "Rating",
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "placeholder": "1970, Thu, 1AM",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Add Beer",
+              },
+              "ref": null,
+              "rendered": "Add Beer",
+              "type": "button",
+            },
+          ],
+          "type": "form",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
