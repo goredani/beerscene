@@ -2,7 +2,10 @@
   "name": "beerscene",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Andrew Mead",
+  "author": "Daniel Gore",
+  "engine": {
+    "node": "8.11.3"
+  },
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
