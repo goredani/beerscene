@@ -4,7 +4,8 @@
   "main": "index.js",
   "author": "Daniel Gore",
   "engine": {
-    "node": "8.11.3"
+    "node": "8.11.3",
+    "npm": "6.2.0"
   },
   "license": "MIT",
   "scripts": {
