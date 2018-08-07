@@ -12,11 +12,12 @@ import numeral from 'numeral';
 
 // console.log(recency());
 
-const BeerListItem = ({ dispatch, id, beername, beertype, brewery, ABV, createdAt, rating, price }) => {
+const BeerListItem = ({ dispatch, id, beername, beertype, brewery, origin, ABV, createdAt, rating, price }) => {
     return(
    <div>
         <h3>Name: {beername}</h3>
         <p>Type: {beertype} - Brewery: {brewery}</p>
+        <p>Origin: {origin}</p>
         <p>ABV: {ABV}</p>
         <p>Added: {moment(createdAt).format('YYYY-MM-DD')}</p>
         <p>Recency: {moment(createdAt).fromNow()}</p>

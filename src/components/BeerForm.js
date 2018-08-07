@@ -98,7 +98,7 @@ export default class BeerForm extends React.Component {
                 brewery: this.state.brewery,
                 ABV: parseFloat(this.state.ABV, 10 *100),
                 IBU: parseFloat(this.state.IBU, 10 *100),
-                brewery: this.state.origin,
+                origin: this.state.origin,
                 description: this.state.description,
                 price: parseFloat(this.state.price, 10) *100,
                 rating: parseFloat(this.state.rating, 10) *100,
