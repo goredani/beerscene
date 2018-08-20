@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
-import {addBeer} from './actions/beers';
+import { startSetBeers} from './actions/beers';
 import {setTextFilter} from './actions/filters';
 import getVisibleBeers from './selectors/beers';
 import 'normalize.css/normalize.css';
@@ -22,4 +22,9 @@ const jsx = (
     </Provider>
 );
 
-ReactDOM.render(jsx, document.getElementById('app'));
+ReactDOM.render(<p>Loading...</p>, document.getElementById('app'));
+
+store.dispatch(startSetBeers()).then(() => {
+    ReactDOM.render(jsx, document.getElementById('app'));
+});
+

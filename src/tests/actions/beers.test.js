@@ -7,6 +7,16 @@ import { doesNotReject } from 'assert';
 
 const createMockStore = consfigureMockStore([thunk]);
 
+
+
+beforeEach((done) => {
+    beersData ={};
+    beers.forEach(( { id, beername, beertype, brewery, ABV, IBU, origin, description, price, rating, createdAt}) => {
+        beersData[id]={ beername, beertype, brewery, ABV, IBU, origin, description, price, rating, createdAt };
+    })
+    database.ref('beers').set(beersDate).then(() => done());
+});
+
 test('should setup remove beer action object', () => {
     const action = removeBeer({id: '123abc'});
     expect(action).toEqual({

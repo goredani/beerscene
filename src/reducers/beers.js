@@ -22,6 +22,8 @@ export default (state = beersReducerDefaultState, action) => {
                     return beer;
                 }
             }); 
+        case 'SET_BEERS':
+            return action.beers;
         default:
             return state;
     }

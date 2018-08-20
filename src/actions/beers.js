@@ -49,3 +49,27 @@ export const editBeer = ( id, updates) => ({
     id,
     updates
 });
+
+// SET_BEERS 
+
+export const setBeers = (beers) => ({
+    type: 'SET_BEERS',
+    beers
+});
+
+export const startSetBeers = () => {
+    return (dispatch) => {
+        return database.ref('beers').once('value').then((snapshot) => {
+            const beers = [];
+
+            snapshot.forEach((childSnapshot) => {
+                beers.push({
+                    id: childSnapshot.key,
+                    ...childSnapshot.val()
+                });
+            });
+
+            dispatch(setBeers(beers));
+        });
+    };
+};
