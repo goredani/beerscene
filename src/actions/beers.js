@@ -58,6 +58,14 @@ export const editBeer = ( id, updates) => ({
     updates
 });
 
+export const startEditBeer = (id, updates) => {
+    return (dispatch) => {
+        return database.ref(`beers/${id}`).update(updates).then(() => {
+            dispatch(editBeer(id, updates));
+        });
+    };
+};
+
 // SET_BEERS 
 
 export const setBeers = (beers) => ({
