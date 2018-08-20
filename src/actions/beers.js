@@ -42,6 +42,14 @@ export const removeBeer = ({ id } = {}) => ({
     id
 });
 
+export const startRemoveBeer = ({id} = {}) => {
+   return (dispatch) => {
+    return database.ref(`beers/${id}`).remove().then(() => {
+        dispatch(removeBeer({ id }));
+    });
+   };
+};
+
 //EDIT BEER
 
 export const editBeer = ( id, updates) => ({

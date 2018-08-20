@@ -1,17 +1,17 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import BeerForm from './BeerForm';
-import { editBeer } from '../actions/beers';
-import { removeBeer } from '../actions/beers';
+import { editBeer, startRemoveBeer } from '../actions/beers';
+
 
 export class EditBeerPage extends React.Component {
   onSubmit = (beer) => {
     this.props.editBeer(this.props.beer.id, beer);
     this.props.history.push('/');
   };
-  onRemove = (beer) => {
-    props.removeBeer({id: this.props.beer.id});
-    props.history.push('/');
+  onRemove = () => {
+    this.props.startRemoveBeer({id: this.props.beer.id});
+    this.props.history.push('/');
   }
   render() {
     return (
@@ -38,7 +38,7 @@ const mapStateToProps = (state, props) => ({
 
 const mapDispatchToProps = (dispatch, props) => ({
   editBeer: (id, beer) => dispatch(editBeer(id, beer)),
-  removeBeer: (data) => dispatch(removeBeer(data))
+  startRemoveBeer: (data) => dispatch(startRemoveBeer(data))
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)( EditBeerPage);
