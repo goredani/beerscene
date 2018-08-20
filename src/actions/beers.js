@@ -1,40 +1,41 @@
 import uuid from 'uuid';
-
+import database from '../firebase/firebase.js';
 
 
 // ADD BEER
 
-export const addBeer = (
-    {   
-        beername ='',
-        beertype = '',
-        brewery = '',
-        ABV ='', 
-        IBU='', 
-        origin = '',
-        description = '', 
-        price='',
-        rating = '',
-        createdAt=0
-    } = {}
-) => ({
+export const addBeer = (beer) => ({
     type: 'ADD_BEER',
-    beer: {
-        id: uuid(),
-        beername,
-        beertype,
-        brewery,
-        ABV,
-        IBU,
-        origin,
-        description,
-        price,
-        rating,
-        createdAt
-    }
+    beer
 });
 
-//REMOVE
+export const startAddBeer = (beerData = {}) => {
+    return (dispatch) => {
+        const {
+            beername ='',
+            beertype = '',
+            brewery = '',
+            ABV ='', 
+            IBU='', 
+            origin = '',
+            description = '', 
+            price='',
+            rating = '',
+            createdAt=0
+        } = beerData;
+
+        const beer = { beername, beertype, brewery, ABV, IBU, origin, description, price, rating, createdAt}
+
+    return database.ref('beers').push(beer).then((ref) => {
+           dispatch(addBeer({
+               id: ref.key,
+               ...beer
+           })); 
+        });
+    };
+};
+
+//REMOVE BEER
 
 export const removeBeer = ({ id } = {}) => ({
     type: 'REMOVE_BEER',

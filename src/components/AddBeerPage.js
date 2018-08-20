@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import BeerForm from './BeerForm';
-import { addBeer } from '../actions/beers';
+import { startAddBeer } from '../actions/beers';
 
 export class AddBeerPage extends React.Component {
   onSubmit = (beer) => {
-    this.props.addBeer(beer);
+    this.props.startAddBeer(beer);
     this.props.history.push('/');
   };
   render() {
@@ -21,7 +21,7 @@ export class AddBeerPage extends React.Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-  addBeer: (beer) => dispatch(addBeer(beer))
+  startAddBeer: (beer) => dispatch(startAddBeer(beer))
 });
 
 

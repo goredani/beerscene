@@ -1,4 +1,11 @@
-import { addBeer, editBeer, removeBeer } from '../../actions/beers';
+import configureMockStore from 'redux-mock-store';
+import thunk from 'redux-thunk';
+import { startAddBeer, addBeer, editBeer, removeBeer } from '../../actions/beers';
+import beers from '../fixtures/beers';
+import database from '../../firebase/firebase';
+import { doesNotReject } from 'assert';
+
+const createMockStore = consfigureMockStore([thunk]);
 
 test('should setup remove beer action object', () => {
     const action = removeBeer({id: '123abc'});
@@ -20,28 +27,48 @@ test('should setup edit beer action object', () => {
 });
 
 test('should setup add beer action object with provided values', () => {
-    const beerData = {
-        beername: 'Lofasz Beer',
-        beertype: 'IPA',
-        brewery: 'tutu',
-        ABV: 12,
-        IBU: 12,
-        origin: 'tata',
-        description: 'nyenye',
-        price: 1235,
-        rating: 12,
-        createdAt: '2016-06-03'
-    };
-    const action = addBeer(beerData);
+    const action = addBeer(beers[2]);
     expect(action).toEqual({
         type: 'ADD_BEER',
-        beer: {
-            ...beerData,
-            id: expect.any(String)
-        }
+        beer: beers[2]
     });
 });
 
+test('should add beer to db and store', () => {
+    const store = createMockStore({});
+    const beerData = {
+        id: '1',
+        beername: 'Babbaba',
+        beertype: 'Hefeweizen',
+        brewery: 'Primátor',
+        ABV: 4.8,
+        IBU: 1,
+        origin: 'Czech Republic',
+        description: 'Bababab', 
+        price: 195, 
+        rating: 3.56, 
+        createdAt: 1000
+    };
+    store.dispatch(startAddBeer(beerData)).then(() => {
+        const actions = store.getActions();
+        expect(actions[0]).toEqual({
+            type: 'ADD_BEER',
+            beer: {
+                id: expect.any(String),
+                ...beerData
+            }
+        });
+        database.ref(`beers/${actions[0].beer.id}`).once('value');
+
+        }).then((snapshot) => {
+            expect(snapshot.val()).toEqual(beerData);
+            done();
+        });
+});
+
+// test('should add beer with defaults to db and store', () => {
+    
+// });
 
 // test('should setup add beer action object with default values', () => {
 

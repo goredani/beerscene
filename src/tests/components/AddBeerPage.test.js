@@ -3,12 +3,12 @@ import { shallow}  from 'enzyme';
 import { AddBeerPage } from '../../components/AddBeerPage';
 import beers from '../fixtures/beers';
 
-let addBeer, history, wrapper;
-    addBeer = jest.fn();
-    history = { push: jest.fn() };
-    wrapper = shallow(<AddBeerPage addBeer={addBeer} history={history} />);
-beforeEach(()=> {
+let startAddBeer, history, wrapper;
 
+beforeEach(()=> {
+    startAddBeer = jest.fn();
+    history = { push: jest.fn() };
+    wrapper = shallow(<AddBeerPage startAddBeer={startAddBeer} history={history} />);
 });
 
 test('should render AddBeerPage correctly', () => {

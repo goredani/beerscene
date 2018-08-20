@@ -8,6 +8,7 @@ import {setTextFilter} from './actions/filters';
 import getVisibleBeers from './selectors/beers';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
+import './firebase/firebase';
 
 const store = configureStore();
 
