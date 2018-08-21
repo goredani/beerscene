@@ -6,7 +6,7 @@ import AddBeerPage from '../components/AddBeerPage';
 import EditBeerPage from '../components/EditBeerPage';
 import HelpPage from '../components/HelpPage';
 import NotFoundPage from '../components/NotFoundPage';
-import Header from '../components/Header';
+// import Header from '../components/Header';
 import LoginPage from '../components/LoginPage';
 import PrivateRoute from './PrivateRoute';
 
@@ -16,7 +16,6 @@ export const history = createHistory();
 const AppRouter = () => (
   <Router history={history}>
     <div>
-      <Header />
       <Switch>
         <Route path="/" component={LoginPage} exact={true} />
         <PrivateRoute path="/dashboard" component={BarDashboardPage} />
