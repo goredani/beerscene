@@ -10,7 +10,8 @@ export const addBeer = (beer) => ({
 });
 
 export const startAddBeer = (beerData = {}) => {
-    return (dispatch) => {
+    return (dispatch, getState) => {
+        const uid = getState().auth.uid;
         const {
             beername ='',
             beertype = '',
@@ -26,7 +27,7 @@ export const startAddBeer = (beerData = {}) => {
 
         const beer = { beername, beertype, brewery, ABV, IBU, origin, description, price, rating, createdAt}
 
-    return database.ref('beers').push(beer).then((ref) => {
+    return database.ref(`users/${uid}/beers`).push(beer).then((ref) => {
            dispatch(addBeer({
                id: ref.key,
                ...beer
@@ -43,8 +44,9 @@ export const removeBeer = ({ id } = {}) => ({
 });
 
 export const startRemoveBeer = ({id} = {}) => {
-   return (dispatch) => {
-    return database.ref(`beers/${id}`).remove().then(() => {
+   return (dispatch, getState) => {
+    const uid = getState().auth.uid;
+    return database.ref(`users/${uid}/beers/${id}`).remove().then(() => {
         dispatch(removeBeer({ id }));
     });
    };
@@ -59,8 +61,9 @@ export const editBeer = ( id, updates) => ({
 });
 
 export const startEditBeer = (id, updates) => {
-    return (dispatch) => {
-        return database.ref(`beers/${id}`).update(updates).then(() => {
+    return (dispatch, getState) => {
+        const uid = getState().auth.uid;
+        return database.ref(`users/${uid}/beers/${id}`).update(updates).then(() => {
             dispatch(editBeer(id, updates));
         });
     };
@@ -74,8 +77,9 @@ export const setBeers = (beers) => ({
 });
 
 export const startSetBeers = () => {
-    return (dispatch) => {
-        return database.ref('beers').once('value').then((snapshot) => {
+    return (dispatch, getState) => {
+        const uid = getState().auth.uid;
+        return database.ref(`users/${uid}/beers`).once('value').then((snapshot) => {
             const beers = [];
 
             snapshot.forEach((childSnapshot) => {
