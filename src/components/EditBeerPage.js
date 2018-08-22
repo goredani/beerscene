@@ -16,13 +16,21 @@ export class EditBeerPage extends React.Component {
   render() {
     return (
       <div>
+        <div className="page-header">
+          <div className="content-container">
+            <h1 className="page-header__title">Edit <span>{this.props.beer.beername}</span></h1>
+          </div>
+        </div>
+        <div className="content-container">
         <BeerForm 
           beer={this.props.beer}
           onSubmit={this.onSubmit}
         />
-          <button onClick={this.onRemove} >
-          Remove
+          <button className="button button--secondary" onClick={this.onRemove} >
+          Remove Beer
           </button>
+        </div>
+        
       </div>
     );
    }

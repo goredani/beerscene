@@ -12,7 +12,13 @@
 
 .button--link {
     background: none;
-    
+
+}
+
+.button--secondary {
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
 }
 
 .button:hover {

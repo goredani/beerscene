@@ -11,10 +11,16 @@ export class AddBeerPage extends React.Component {
   render() {
     return (
       <div>
-        <h1>Add Beer</h1>
-        <BeerForm
-          onSubmit={this.onSubmit}
-        />
+        <div className="page-header">
+          <div className="content-container">
+            <h1 className="page-header__title">Add Beer</h1>
+          </div>
+        </div>
+        <div className="content-container">
+          <BeerForm
+            onSubmit={this.onSubmit}
+          />
+        </div>
       </div>
     );
   }

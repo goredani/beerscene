@@ -109,9 +109,9 @@ export default class BeerForm extends React.Component {
     
     render() {
         return (
-            <div>
-                {this.state.error && <p>{this.state.error}</p>}
-                <form onSubmit={this.onSubmit}>
+           
+            <form className="form" onSubmit={this.onSubmit}>
+                {this.state.error && <p className="form__error">{this.state.error}</p>}
                     <input
                         type="text"
                         placeholder="Beer Name"
@@ -191,10 +191,12 @@ export default class BeerForm extends React.Component {
                      />
                   
                     
-                   
-                    <button>Add Beer</button>
+                    <div>
+                     <button className="button">Save Beer</button>        
+                    </div>
+                    
                 </form>
-            </div>
+           
         )
     }
 }
