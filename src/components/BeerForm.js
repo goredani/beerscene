@@ -116,6 +116,7 @@ export default class BeerForm extends React.Component {
                         type="text"
                         placeholder="Beer Name"
                         autoFocus
+                        className="text-input"
                         value={this.state.beername}
                         onChange={this.onBeerNameChange}
                     />
@@ -123,6 +124,7 @@ export default class BeerForm extends React.Component {
                     <input
                         type="text"
                         placeholder="Beer Type"
+                        className="text-input"
                         value = {this.state.beertype}
                         onChange = {this.onBeerTypeChange}
                     />
@@ -130,6 +132,7 @@ export default class BeerForm extends React.Component {
                     <input
                         type="text"
                         placeholder="Brewery"
+                        className="text-input"
                         value = {this.state.brewery}
                         onChange = {this.onBreweryChange}
                     />
@@ -137,6 +140,7 @@ export default class BeerForm extends React.Component {
                     <input
                         type="number"
                         placeholder="ABV"
+                        className="text-input"
                         value={this.state.ABV}
                         onChange={this.onABVChange}
                     />
@@ -144,6 +148,7 @@ export default class BeerForm extends React.Component {
                     <input
                         type="number"
                         placeholder="IBU"
+                        className="text-input"
                         value={this.state.IBU}
                         onChange={this.onIBUChange}
                     />
@@ -151,12 +156,14 @@ export default class BeerForm extends React.Component {
                     <input
                         type="text"
                         placeholder="Country Origin"
+                        className="text-input"
                         value={this.state.origin}
                         onChange={this.onOriginChange}
                     />
                     <br />
                     <textarea
                         placeholder="Description"
+                        className="textarea"
                         value={this.state.description}
                         onChange={this.onDescriptionChange}>
                     </textarea>
@@ -164,6 +171,7 @@ export default class BeerForm extends React.Component {
                     <input
                         type="number"
                         placeholder="Price"
+                        className="text-input"
                         value={this.state.price}
                         onChange={this.onPriceChange}
                     />
@@ -171,12 +179,14 @@ export default class BeerForm extends React.Component {
                     <input
                         type="number"
                         placeholder="Rating"
+                        className="text-input"
                         value={this.state.rating}
                         onChange={this.onRatingChange}
                     />
                     <br />
                     <input
                         type="text"
+                        className="text-input"
                         placeholder={moment().format('YYYY, ddd, hA')}
                      />
                   
